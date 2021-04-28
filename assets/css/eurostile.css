@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Eurostile Extended';
+    src: local('Eurostile Extended'), local('EurostileExtended-Roman'), url('../fonts/EurostileExtended-Roman.woff2') format('woff2'), url('../fonts/EurostileExtended-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eurostile Extended';
+    src: local('Eurostile Extended Black'), local('EurostileExtended-Black'), url('../fonts/EurostileExtended-Black.woff2') format('woff2'), url('../fonts/EurostileExtended-Black.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
