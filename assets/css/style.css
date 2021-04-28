@@ -2,16 +2,17 @@
 @import url('../css/eurostile.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 body {
-    min-height: 1500px;
+    
     font-family: 'Bai Jamjuree', sans-serif;
     /* font-family: 'Eurostile Extended'; */
     font-weight: 500;
     background-color: #353535;
-    background-image: url(../img/bg-lines.png);
+    /* background-image: url(../img/bg-lines.png); */
 }
 
 .custom-fluid-container {
     width: calc(100% - 300px);
+    z-index: 1;
 }
 
 .main-navbar {
@@ -160,4 +161,55 @@ body {
     background-color: #d3d0c9;
     background-size: cover;
     background-position: center center;
+}
+
+
+.mt-custom {
+    margin-top: 10rem;
+}
+
+
+
+.top-slider {
+    height: 950px;
+    position: relative;
+    width: 100%;
+    background-image: url(../img/bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.after-slider {
+    background-color: #353535;
+    height: 400px;
+    position: relative;
+    width: 100%;
+    padding-top: 150px;
+}
+
+.top-slider img {
+    width: 100%;
+}
+
+.after-slider:before{
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 200px;
+    top: -70px;
+    left: 0;
+    background-color: #353535;
+    transform: skewY(10deg);
+}
+
+.after-slider:after{
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 200px;
+    top: -70px;
+    right: 0;
+    background-color: #353535;
+    transform: skewY(-10deg);
 }
