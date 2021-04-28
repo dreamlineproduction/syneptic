@@ -2,12 +2,11 @@
 @import url('../css/eurostile.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 body {
-    
     font-family: 'Bai Jamjuree', sans-serif;
     /* font-family: 'Eurostile Extended'; */
     font-weight: 500;
     background-color: #353535;
-    /* background-image: url(../img/bg-lines.png); */
+    background-image: url(../img/bg-lines.png);
 }
 
 .custom-fluid-container {
@@ -15,8 +14,19 @@ body {
     z-index: 1;
 }
 
+.navbar-position {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
 .main-navbar {
     z-index: 10;
+}
+
+.main-slider {
+    height: 981px;
 }
 
 .danti {
@@ -32,10 +42,12 @@ body {
     height: 45px;
     width: 45px;
     background-repeat: no-repeat;
+    top: 105px;
 }
 
 .slider-title-area {
-    margin-top: 150px;
+    top: -590px;
+    position: relative;
 }
 
 .main-slider .cyber-title {
@@ -163,12 +175,9 @@ body {
     background-position: center center;
 }
 
-
 .mt-custom {
     margin-top: 10rem;
 }
-
-
 
 .top-slider {
     height: 950px;
@@ -177,7 +186,6 @@ body {
     background-image: url(../img/bg-1.jpg);
     background-size: cover;
     background-position: center;
-    
 }
 
 .after-slider {
@@ -192,7 +200,7 @@ body {
     width: 100%;
 }
 
-.after-slider:before{
+.after-slider:before {
     position: absolute;
     content: '';
     width: 60%;
@@ -203,7 +211,7 @@ body {
     transform: skewY(10deg);
 }
 
-.after-slider:after{
+.after-slider:after {
     position: absolute;
     content: '';
     width: 60%;
@@ -212,4 +220,64 @@ body {
     right: 0;
     background-color: #353535;
     transform: skewY(-10deg);
+}
+
+.body-area-start .title-area {
+    margin-top: 90px;
+}
+
+.body-area-start .title-area h6 {
+    font-family: 'Eurostile Extended';
+    color: #ee1017;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.body-area-start .title-area h1 {
+    font-family: 'Eurostile Extended';
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}
+
+.ionc-class {
+    height: 171px;
+}
+
+.section-body-area h6 {
+    color: #d9d9d9;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.section-body-area h1 {
+    color: #d9d9d9;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.section-body-area p {
+    color: #a5a5a5;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.verticle-po {
+    padding-top: 6rem !important;
+    padding-left: 8rem !important;
+}
+
+.hori-po {
+    padding-top: 6rem !important;
+    padding-right: 8rem !important;
+}
+
+.section-body-area .hr {
+    background: red;
+    height: 2px;
+    width: 170px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
