@@ -1,0 +1,445 @@
+@media only screen and (max-width: 612px) {
+    .custom-fluid-container {
+        width: 100%;
+        z-index: 100;
+    }
+    .main-slider .cyber-title-2 {
+        position: relative;
+        z-index: 10;
+        text-align: center;
+        color: #ee1017;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: calc(1.35rem + 1.5vw);
+        font-family: 'Eurostile Extended';
+    }
+    .slider-title-area {
+        margin-top: 0;
+    }
+    .ionc-class {
+        height: 111px;
+    }
+    .main-slider {
+        height: 380px;
+    }
+    .body-area-start .title-area h1 {
+        font-family: 'Eurostile Extended';
+        font-size: 28px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 600;
+    }
+    .section-body-area h6 {
+        color: #d9d9d9;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-family: 'Bai Jamjuree', sans-serif;
+    }
+    .section-body-area h1 {
+        color: #d9d9d9;
+        font-size: 27px;
+        text-transform: uppercase;
+        font-family: 'Bai Jamjuree', sans-serif;
+    }
+    .verticle-po {
+        padding-top: 5.5rem !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        text-align: center;
+    }
+    .section-body-area p {
+        color: #a5a5a5;
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 14px;
+    }
+    .mobile-p-top {
+        margin-top: 20px;
+    }
+    .section-body-area .hr {
+        background: red;
+        height: 2px;
+        width: 130px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin: auto;
+    }
+    .main-slider p {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        position: relative;
+        z-index: 10;
+        color: #acacac;
+        max-width: 290px;
+        margin: auto;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .main-navbar img {
+        max-width: 130px;
+    }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        background: #353535;
+        border: 2px solid #ea0c11;
+        margin-top: 20px;
+    }
+    .main-navbar .nav-item {
+        margin-left: 0;
+    }
+    .main-navbar .navbar-active {
+        background-image: url(../img/active_bar.png);
+        height: 7px;
+        background-repeat: no-repeat;
+        margin-left: 12px;
+        margin-right: auto;
+        display: none;
+    }
+    .slider-title-area {
+        top: 140px;
+        position: relative;
+    }
+    .body-area-start .title-area {
+        margin-top: 130px;
+    }
+    .danti {
+        height: 110px;
+        width: 1px;
+        background-color: #fff;
+        z-index: 1;
+        opacity: .6;
+        top: 52%!important;
+    }
+    .shadowboard,
+    .clipboard {
+        background-image: url(../img/bg-1.jpg);
+        clip-path: polygon(0% 0%, 100% 0, 100% 85%, 50% 100%, 0 85%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #d3d0c9;
+        background-size: cover;
+        background-position: center center;
+        z-index: 1;
+        height: 420px;
+    }
+    .shadowboard,
+    .clipboard2 {
+        background-image: url(../img/red-bg.png);
+        clip-path: polygon(0% 0%, 100% 0, 100% 85%, 50% 100%, 0 85%);
+        position: absolute;
+        top: 110px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #d3d0c9;
+        background-size: cover;
+        background-position: center center;
+        height: 308px;
+    }
+    .main-slider .cyber-title {
+        position: relative;
+        z-index: 10;
+        text-align: center;
+        color: #acacac;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-family: 'Eurostile Extended';
+    }
+    .contact-button-nav {
+        margin-left: 15px !important;
+        margin-right: 15px;
+    }
+    .contact-button-nav .btn-primary {
+        border: 2px solid #ee1017;
+        background: #353535;
+        padding: 9px 40px;
+        box-shadow: -1px 1px 35px 0px rgb(234 12 17 / 37%);
+        -webkit-box-shadow: -1px 1px 35px 0px rgb(234 12 17 / 37%);
+        -moz-box-shadow: -1px 1px 35px 0px rgba(234, 12, 17, 0.68);
+        width: 100%;
+    }
+    .all-padding-six {
+        padding: 1rem !important;
+    }
+    .hori-po {
+        padding-top: 1.5rem !important;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+        text-align: center;
+    }
+    .industries-expert-mobile {
+        background-image: url(../img/industries_expert.jpg);
+        border-radius: 0px 0px 392px 392px;
+        min-height: 470px;
+    }
+    .slide-handeler-mobile {
+        border-radius: 0px 0px 392px 392px;
+        min-height: 470px;
+        height: 100%;
+        background-color: transparent;
+        border-color: white;
+        margin-left: -20px;
+        border-width: 0 2px 2px 2px;
+        border-style: solid;
+        margin-bottom: 0;
+        margin-right: -20px;
+        margin-top: 10px;
+    }
+    .dot1-mobile {
+        right: -10px;
+        top: 367px;
+    }
+    .dot2-mobile {
+        right: -93px;
+        top: 424px;
+    }
+    .dot3-mobile {
+        right: -241px;
+        top: 406px;
+    }
+    .dot4-mobile {
+        right: -333px;
+        top: 318px;
+    }
+    .margin-top-mobile-5 {
+        margin-top: 35px;
+    }
+    .hr {
+        background: red;
+        height: 2px;
+        width: 170px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin: auto;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer .logo {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .location-info {
+        margin-bottom: 20px;
+    }
+    .social-icon {
+        width: 40px;
+        height: 40px;
+        background: #fff;
+        border-radius: 50%;
+        padding: 7px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .custom-fluid-container {
+        width: 100%;
+        z-index: 100;
+    }
+    .main-slider .cyber-title-2 {
+        position: relative;
+        z-index: 10;
+        text-align: center;
+        color: #ee1017;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: calc(1.35rem + 1.5vw);
+        font-family: 'Eurostile Extended';
+    }
+    .slider-title-area {
+        margin-top: 0;
+    }
+    .ionc-class {
+        height: 111px;
+    }
+    .main-slider {
+        height: 380px;
+    }
+    .body-area-start .title-area h1 {
+        font-family: 'Eurostile Extended';
+        font-size: 28px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 600;
+    }
+    .section-body-area h6 {
+        color: #d9d9d9;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-family: 'Bai Jamjuree', sans-serif;
+    }
+    .section-body-area h1 {
+        color: #d9d9d9;
+        font-size: 27px;
+        text-transform: uppercase;
+        font-family: 'Bai Jamjuree', sans-serif;
+    }
+    .verticle-po {
+        padding-top: 0rem !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        text-align: left;
+    }
+    .section-body-area p {
+        color: #a5a5a5;
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 14px;
+    }
+    .mobile-p-top {
+        margin-top: 20px;
+    }
+    .section-body-area .hr {
+        background: red;
+        height: 2px;
+        width: 130px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin: auto;
+    }
+    .main-slider p {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        position: relative;
+        z-index: 10;
+        color: #acacac;
+        max-width: 290px;
+        margin: auto;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .main-navbar img {
+        max-width: 130px;
+    }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        background: #353535;
+        border: 2px solid #ea0c11;
+        margin-top: 20px;
+    }
+    .main-navbar .nav-item {
+        margin-left: 0;
+    }
+    .main-navbar .navbar-active {
+        background-image: url(../img/active_bar.png);
+        height: 7px;
+        background-repeat: no-repeat;
+        margin-left: 12px;
+        margin-right: auto;
+        display: none;
+    }
+    .slider-title-area {
+        top: -290px;
+        position: relative;
+    }
+    .main-slider .cyber-title {
+        position: relative;
+        z-index: 10;
+        text-align: center;
+        color: #acacac;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-family: 'Eurostile Extended';
+    }
+    .contact-button-nav {
+        margin-left: 15px !important;
+        margin-right: 15px;
+    }
+    .contact-button-nav .btn-primary {
+        border: 2px solid #ee1017;
+        background: #353535;
+        padding: 9px 40px;
+        box-shadow: -1px 1px 35px 0px rgb(234 12 17 / 37%);
+        -webkit-box-shadow: -1px 1px 35px 0px rgb(234 12 17 / 37%);
+        -moz-box-shadow: -1px 1px 35px 0px rgba(234, 12, 17, 0.68);
+        width: 100%;
+    }
+    .all-padding-six {
+        padding: 3rem !important;
+    }
+    .hori-po {
+        padding-top: 0 !important;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+        text-align: left;
+    }
+    .industries-expert-mobile {
+        background-image: url(../img/industries_expert.jpg);
+        border-radius: 0px 0px 392px 392px;
+        min-height: 470px;
+    }
+    .slide-handeler-mobile {
+        border-radius: 0px 0px 392px 392px;
+        min-height: 470px;
+        height: 100%;
+        background-color: transparent;
+        border-color: white;
+        margin-left: -20px;
+        border-width: 0 2px 2px 2px;
+        border-style: solid;
+        margin-bottom: 0;
+        margin-right: -20px;
+        margin-top: 10px;
+    }
+    .dot1-tabs {
+        right: -154px;
+        top: 17px;
+    }
+    .dot2-tabs {
+        right: 3px;
+        top: 184px;
+    }
+    .dot3-tabs {
+        right: -9px;
+        top: 356px;
+    }
+    .dot4-tabs {
+        right: -146px;
+        top: 475px;
+    }
+    .margin-top-mobile-5 {
+        margin-top: 35px;
+    }
+    .hr {
+        background: red;
+        height: 2px;
+        width: 170px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin: auto;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer .logo {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .location-info {
+        margin-bottom: 20px;
+    }
+    .social-icon {
+        width: 40px;
+        height: 40px;
+        background: #fff;
+        border-radius: 50%;
+        padding: 7px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
