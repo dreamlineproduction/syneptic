@@ -14,6 +14,14 @@ body {
     z-index: 1;
 }
 
+.eurostile-font {
+    font-family: 'Eurostile Extended' !important
+}
+
+.text-red {
+    color: #ee1017 !important
+}
+
 .navbar-position {
     position: absolute;
     left: 0;
@@ -274,10 +282,87 @@ body {
     padding-right: 8rem !important;
 }
 
-.section-body-area .hr {
+.hr {
     background: red;
     height: 2px;
     width: 170px;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+.about-us {
+    background-image: url(../img/pattern_bg.jpg);
+}
+
+.industries-expert {
+    background-image: url(../img/industries_expert.jpg);
+    border-radius: 392px 0px 0px 392px
+}
+
+.all-padding-six {
+    padding: 10rem !important;
+}
+
+.slide-handeler {
+    height: 100%;
+    background-color: transparent;
+    border-color: red;
+    border-radius: 392px 0px 0px 392px;
+    margin-left: -50px;
+    border-width: 0 0 0 2px;
+    border-style: solid;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 0px;
+}
+
+.dots {
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.dots:hover {
+    background: red;
+}
+
+.dot1 {
+    right: -150px;
+    top: 43px;
+}
+
+.dot2 {
+    right: -13px;
+    top: 183px;
+}
+
+.dot3 {
+    right: 9px;
+    top: 343px;
+}
+
+.dot4 {
+    right: -88px;
+    top: 513px;
+}
+
+
+/* .slide-handeler:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 392px 0px 0px 392px;
+    border: 2px solid #ccc;
+} */
+
+.hide {
+    display: none;
 }

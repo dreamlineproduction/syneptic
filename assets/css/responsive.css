@@ -77,4 +77,58 @@
         -moz-box-shadow: -1px 1px 35px 0px rgba(234, 12, 17, 0.68);
         width: 100%;
     }
+    .all-padding-six {
+        padding: 1rem !important;
+    }
+    .hori-po {
+        padding-top: 1.5rem !important;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+        text-align: center;
+    }
+    .industries-expert-mobile {
+        background-image: url(../img/industries_expert.jpg);
+        border-radius: 0px 0px 392px 392px;
+        min-height: 470px;
+    }
+    .slide-handeler-mobile {
+        border-radius: 0px 0px 392px 392px;
+        min-height: 470px;
+        height: 100%;
+        background-color: transparent;
+        border-color: white;
+        margin-left: -20px;
+        border-width: 0 2px 2px 2px;
+        border-style: solid;
+        margin-bottom: 0;
+        margin-right: -20px;
+        margin-top: 10px;
+    }
+    .dot1-mobile {
+        right: -10px;
+        top: 367px;
+    }
+    .dot2-mobile {
+        right: -93px;
+        top: 424px;
+    }
+    .dot3-mobile {
+        right: -241px;
+        top: 406px;
+    }
+    .dot4-mobile {
+        right: -353px;
+        top: 289px;
+    }
+    .margin-top-mobile-5 {
+        margin-top: 35px;
+    }
+    .hr {
+        background: red;
+        height: 2px;
+        width: 170px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin: auto;
+    }
 }
