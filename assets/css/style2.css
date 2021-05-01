@@ -9,6 +9,34 @@ body {
     background-image: url(../img/bg-lines.png);
 }
 
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(56, 56, 56);
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(36, 36, 36);
+}
+
 .custom-fluid-container {
     width: calc(100% - 300px);
     z-index: 10;
@@ -105,9 +133,9 @@ body {
 .main-navbar .navbar-active {
     background-image: url(../img/active_bar.png);
     height: 7px;
-    background-repeat: no-repeat;
-    margin-left: 12px;
-    margin-right: auto;
+    background-repeat: repeat-x;
+    width: 89%;
+    margin: auto;
 }
 
 .main-navbar img {
@@ -401,4 +429,14 @@ body {
 
 .copyright-text a {
     text-decoration: none;
+}
+
+.email-info a {
+    text-decoration: none;
+    color: #6c757d!important;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.email-info a:hover {
+    color: #ee1017 !important
 }
