@@ -317,12 +317,12 @@ body {
 }
 
 .verticle-po {
-    padding-top: 6rem !important;
+    /* padding-top: 6rem !important; */
     padding-left: 8rem !important;
 }
 
 .hori-po {
-    padding-top: 6rem !important;
+    /* padding-top: 6rem !important; */
     padding-right: 8rem !important;
 }
 

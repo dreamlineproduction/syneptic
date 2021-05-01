@@ -3,6 +3,16 @@
         width: 100%;
         z-index: 100;
     }
+    .bg-red {
+        background-color: #ee1017;
+    }
+    .btn-check:focus+.btn-primary,
+    .btn-primary:focus {
+        color: #fff;
+        background-color: #a21c1f;
+        border-color: #0a58ca;
+        box-shadow: 0 0 0 0.25rem #ee10174a;
+    }
     .main-slider .cyber-title-2 {
         position: relative;
         z-index: 10;
@@ -82,7 +92,7 @@
         flex-grow: 1;
         align-items: center;
         background: #353535;
-        border: 2px solid #ea0c11;
+        border: 0;
         margin-top: 20px;
     }
     .main-navbar .nav-item {
@@ -97,7 +107,7 @@
         display: none;
     }
     .slider-title-area {
-        top: 140px;
+        top: 80px;
         position: relative;
     }
     .body-area-start .title-area {
@@ -182,12 +192,12 @@
         height: 100%;
         background-color: transparent;
         border-color: white;
-        margin-left: -20px;
+        margin-left: inherit;
         border-width: 0 2px 2px 2px;
         border-style: solid;
         margin-bottom: 0;
-        margin-right: -20px;
-        margin-top: 10px;
+        margin-right: inherit;
+        margin-top: 0;
     }
     .dot1-mobile {
         right: -10px;
@@ -198,12 +208,12 @@
         top: 424px;
     }
     .dot3-mobile {
-        right: -241px;
-        top: 406px;
+        right: -221px;
+        top: 397px;
     }
     .dot4-mobile {
-        right: -333px;
-        top: 318px;
+        right: -303px;
+        top: 309px;
     }
     .margin-top-mobile-5 {
         margin-top: 35px;
