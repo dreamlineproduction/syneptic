@@ -417,6 +417,18 @@ body {
     display: none;
 }
 
+.footer {
+    padding: 3rem;
+}
+
+.d-flex-desktop {
+    display: flex;
+}
+
+.me-5-desktop {
+    margin-right: 3rem;
+}
+
 .footer .logo {
     width: 200px;
 }

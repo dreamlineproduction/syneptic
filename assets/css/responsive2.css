@@ -87,6 +87,15 @@
     .main-navbar img {
         max-width: 130px;
     }
+    .footer {
+        padding: 1rem;
+    }
+    .d-flex-desktop {
+        display: grid;
+    }
+    .me-5-desktop {
+        margin-right: inherit;
+    }
     .navbar-collapse {
         flex-basis: 100%;
         flex-grow: 1;
@@ -107,7 +116,7 @@
         display: none;
     }
     .slider-title-area {
-        top: 80px;
+        top: 130px;
         position: relative;
     }
     .body-area-start .title-area {
