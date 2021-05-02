@@ -304,9 +304,19 @@ body {
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
+.section-body-area a {
+    color: #d9d9d9;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
 .verticle-po a,
 .hori-po a {
     text-decoration: none;
+}
+
+.verticle-po a:hover,
+.hori-po a:hover {
+    color: #ee1017;
 }
 
 .section-body-area h1 {
