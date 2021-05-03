@@ -3,6 +3,16 @@
         width: 100%;
         z-index: 100;
     }
+    .bg-red {
+        background-color: #ee1017;
+    }
+    .btn-check:focus+.btn-primary,
+    .btn-primary:focus {
+        color: #fff;
+        background-color: #a21c1f;
+        border-color: #0a58ca;
+        box-shadow: 0 0 0 0.25rem #ee10174a;
+    }
     .main-slider .cyber-title-2 {
         position: relative;
         z-index: 10;
@@ -77,12 +87,26 @@
     .main-navbar img {
         max-width: 130px;
     }
+    .footer {
+        padding: 2rem;
+    }
+    .verticle-po a,
+    .hori-po a {
+        text-decoration: none;
+        color: #d9d9d9;
+    }
+    .d-flex-desktop {
+        display: grid;
+    }
+    .me-5-desktop {
+        margin-right: inherit;
+    }
     .navbar-collapse {
         flex-basis: 100%;
         flex-grow: 1;
         align-items: center;
         background: #353535;
-        border: 2px solid #ea0c11;
+        border: 0;
         margin-top: 20px;
     }
     .main-navbar .nav-item {
@@ -97,8 +121,48 @@
         display: none;
     }
     .slider-title-area {
-        top: -290px;
+        top: 130px;
         position: relative;
+    }
+    .body-area-start .title-area {
+        margin-top: 130px;
+    }
+    .danti {
+        height: 110px;
+        width: 1px;
+        background-color: #fff;
+        z-index: 1;
+        opacity: .6;
+        top: 52%!important;
+    }
+    .shadowboard,
+    .clipboard {
+        background-image: url(../img/bg-1.jpg);
+        clip-path: polygon(0% 0%, 100% 0, 100% 85%, 50% 100%, 0 85%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #d3d0c9;
+        background-size: cover;
+        background-position: center center;
+        z-index: 1;
+        height: 420px;
+    }
+    .shadowboard,
+    .clipboard2 {
+        background-image: url(../img/red-bg.png);
+        clip-path: polygon(0% 0%, 100% 0, 100% 85%, 50% 100%, 0 85%);
+        position: absolute;
+        top: 110px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #d3d0c9;
+        background-size: cover;
+        background-position: center center;
+        height: 308px;
     }
     .main-slider .cyber-title {
         position: relative;
@@ -142,12 +206,12 @@
         height: 100%;
         background-color: transparent;
         border-color: white;
-        margin-left: -20px;
+        margin-left: inherit;
         border-width: 0 2px 2px 2px;
         border-style: solid;
         margin-bottom: 0;
-        margin-right: -20px;
-        margin-top: 10px;
+        margin-right: inherit;
+        margin-top: 0;
     }
     .dot1-mobile {
         right: -10px;
@@ -158,12 +222,12 @@
         top: 424px;
     }
     .dot3-mobile {
-        right: -241px;
-        top: 406px;
+        right: -221px;
+        top: 397px;
     }
     .dot4-mobile {
-        right: -333px;
-        top: 318px;
+        right: -303px;
+        top: 309px;
     }
     .margin-top-mobile-5 {
         margin-top: 35px;
